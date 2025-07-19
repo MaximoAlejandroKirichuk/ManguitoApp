@@ -1,3 +1,5 @@
+
+import {Colors} from './constants/Color.tsx'
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   // NOTE: Update this to include the paths to all files that contain Nativewind classes.
@@ -14,13 +16,12 @@ module.exports = {
       },
 
       colors:{
-        primary:"##4CAF50",
-        secondary: '#FFC107',
-        text_primary: '#333333',
-        text_secondary: '#757575',
-        background:'#FAFAFA',
-        error:'#FF6B6B',
-
+        primary: Colors.primary,
+        secondary: Colors.secondary,
+        text_primary: Colors.text_primary,
+        text_secondary: Colors.text_secondary,
+        background: Colors.background,
+        error: Colors.error,
       }
     },
   },
